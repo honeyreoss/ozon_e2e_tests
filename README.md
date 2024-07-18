@@ -1,1 +1,0 @@
-# ozon_e2e_tests

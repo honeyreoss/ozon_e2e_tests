@@ -1,0 +1,58 @@
+# Стандартные игнорирования для .NET и Visual Studio
+bin/
+obj/
+out/
+
+# Пакеты NuGet
+packages/
+
+# Сборки VS
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Игнорирование каталогов IDE и редакторов
+.vs/
+.vscode/
+.idea/
+
+# Резервные копии файлов
+*.[Bb]ak
+*.bak.*
+*.back
+
+# Игнорирование файлов базы данных
+*.mdf
+*.ldf
+*.ndf
+*.dbmdl
+
+# Кэш файлы
+*.cache
+*Cache/
+*.[Cc]ache/
+
+# Файлы журналов
+*.log
+*log/
+
+# Файлы конфигурации
+appsettings.json
+web.config
+
+# Файлы пакетов
+*.nupkg
+*.snupkg
+
+# Отладочные файлы
+*.pdb
+
+# Остальные файлы
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.vbw
+*.config.user
+*.dotCover
